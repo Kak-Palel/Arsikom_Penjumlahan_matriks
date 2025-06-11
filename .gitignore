@@ -1,0 +1,10 @@
+*exe
+*EXE
+*obj
+*OBJ
+*map
+*MAP
+.vscode
+compiler/DEBUGX.zip
+!compiler/*
+!compiler/DEBUGX/*
