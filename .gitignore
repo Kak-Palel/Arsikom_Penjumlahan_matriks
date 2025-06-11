@@ -8,3 +8,5 @@
 compiler/DEBUGX.zip
 !compiler/*
 !compiler/DEBUGX/*
+stderr.txt
+stdout.txt
