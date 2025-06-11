@@ -71,9 +71,9 @@ pada file [JUMLAH-CALL.asm](JUMLAH-CALL.asm), terdapat program yang sama dengan 
 ```bash
 C:\>JUMLAH~1
 04
-111
-123
-234
+1111
+1231
+2342
 ```
 
 ## Beberapa catatan
