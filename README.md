@@ -3,6 +3,12 @@
 ## Instalasi dan setup
 Pertama install DOSBox [disini](https://www.dosbox.com/download.php?main=1).
 
+Setelah install, clone repositori ini
+```bash
+git clone https://github.com/Kak-Palel/Arsikom_Penjumlahan_matriks.git
+```
+
+
 Kemudian (Optional but highly recommended) tambahkan DOSBox ke PATH environment variable agar bisa diakses dari terminal.
 1. Klik tombol windows dan cari "Edit the system environment variables".
 2. Klik "Environment Variables" di bagian bawah.
