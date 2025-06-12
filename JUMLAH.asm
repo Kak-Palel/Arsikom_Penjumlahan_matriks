@@ -1,10 +1,10 @@
 .model small
 .data
-    n db 20                                                         ; Number of elements to add
-    A db 0, 1, 1, 2, 3, 3, 4, 4, 5, 1, 1, 2, 2, 2, 3, 3, 4, 4, 0, 1 ; Matrix A
-    B db 1, 1, 2, 2, 2, 3, 3, 4, 4, 0, 1, 1, 2, 3, 3, 4, 4, 5, 1, 1 ; Matrix B
-    C db 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ; Matrix C to store the result
-    newline db 13, 10, '$'                                          ; Newline characters for printing
+    n db 20                                                          ; Number of elements to add
+    A db 0, 1, 1, 2, 3, 3, 4, 4, 5, -1, 1, 2, 2, 2, 3, 3, 4, 4, 0, 1 ; Matrix A
+    B db 1, 1, 2, 2, 2, 3, 3, 4, 4, 0, 1, 1, 2, 3, 3, 4, 4, 5, 1, 1  ; Matrix B
+    C db 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0  ; Matrix C to store the result
+    newline db 13, 10, '$'                                           ; Newline characters for printing
 
 .code
 main proc
